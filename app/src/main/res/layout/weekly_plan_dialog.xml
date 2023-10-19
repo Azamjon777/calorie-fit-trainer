@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/monday_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/monday1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/tuesday_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tuesday1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/wednesday_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/wednesday1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/thursday_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/thursday1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/friday_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/friday1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/saturday_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/saturday1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/sunday_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sunday1"
+        android:inputType="number" />
+
+</LinearLayout>
